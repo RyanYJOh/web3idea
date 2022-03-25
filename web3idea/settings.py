@@ -25,7 +25,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = ['https://web3idea.herokuapp.com', 'web3idea.herokuapp.com', '127.0.0.1', '.verb-to-earn.xyz', 'www.verb-to-earn.xyz']
 
