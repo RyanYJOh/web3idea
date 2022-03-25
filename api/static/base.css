@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+body {
+    /* background-color: #350235 !important; */
+    background-color: #350235;
+    background-image: linear-gradient(160deg, #350235 41%, #80D0C7 88%);
+    
+    
+
+    color : #f79151 !important;
+    font-family: 'Roboto Mono', monospace !important;
+}
+.navbar {
+    background-color: transparent !important;
+}
+.btn-primary {
+    border : none !important;
+    font-weight: 800 !important;
+    font-size : 1.5rem !important;
+    /* border-radius: 29px; */
+    background: #350235 !important;
+    background: linear-gradient(145deg, #390239, #300230) !important;
+    box-shadow:  7px 7px 5px #150115,
+             -7px -7px 5px #550355;
+}
+.row {
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+.row-h-20 {
+    height: 20px;
+}
+h1 {
+    font-weight: 600 !important;
+}
+.modal-content {
+    background-color: #f79151 !important;
+}
+.modal-body {
+    color : #350235 !important;
+}
