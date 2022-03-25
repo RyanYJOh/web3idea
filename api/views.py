@@ -11,7 +11,7 @@ def getVerb(request):
     print('this verb :', verb)
     context = json.dumps({
         'verb' : verb,
-    })
+    }) 
     print(type(context))
     return JsonResponse(context, safe=False)
 
