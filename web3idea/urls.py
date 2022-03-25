@@ -18,7 +18,7 @@ from django.urls import path
 from api.views import addVerbs, getVerb, home
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin-to-earn/', admin.site.urls),
     path('', home, name='home'),
     path('getVerb/', getVerb, name='getVerb'),
     path('migrateVerbs/', addVerbs, name='addverb')
