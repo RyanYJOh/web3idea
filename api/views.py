@@ -505,9 +505,9 @@ def addVerbs(request):
 "Take Risk"	,
 "Take Risk"	,
 "Take Risk"	]
-
-    for i in range(0, len(verbs)):
-        this_verb = verbs[i]
+    verbs_v2 = ['Shitpost','Shitpost','Shitpost','Shitpost','Shitpost','Shitpost','Shitpost','Shitpost']
+    for i in range(0, len(verbs_v2)):
+        this_verb = verbs_v2[i]
         Verbs.objects.create(
             verb = this_verb
         )
