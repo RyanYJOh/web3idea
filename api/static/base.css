@@ -1,3 +1,6 @@
+.mobile-only {
+    display: none !important;
+}
 html {
     height: 100%;
 }
@@ -39,4 +42,13 @@ h1 {
 }
 .modal-body {
     color : #350235 !important;
+}
+
+@media (max-width:768px) {
+    .mobile-only {
+        display: inline !important;
+    }
+    .pc-only {
+        display: none !important;
+    }
 }
